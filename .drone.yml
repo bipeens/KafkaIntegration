@@ -1,4 +1,4 @@
-image: openjdk7
+image: hello-world
 script:
    - mvn install -q -DskipTests=true
    - mvn test
