@@ -1,3 +1,4 @@
-image: dockerfile/nginx
+image: openjdk7
 script:
-  - echo hello world
+   - mvn install -q -DskipTests=true
+   - mvn test
